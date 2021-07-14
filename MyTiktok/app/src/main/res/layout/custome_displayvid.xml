@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <VideoView
+        android:id="@+id/videoiteam"
+        android:layout_centerInParent="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"></VideoView>
+    <TextView
+        android:text="Dau La Dai Luc AMV"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="21dp"
+        android:shadowDy="1"
+        android:shadowDx="1"
+        android:shadowRadius="2"
+        android:shadowColor="#444444"
+        android:layout_marginStart="10dp"
+        android:id="@+id/titlevid"
+        android:layout_above="@id/timeslap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="dd/MM/yyyy hh:mm"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="#555555"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16dp"
+        android:shadowDy="1"
+        android:shadowDx="1"
+        android:shadowRadius="2"
+        android:shadowColor="#444444"
+        android:layout_marginStart="10dp"
+        android:id="@+id/timeslap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ProgressBar
+        android:id="@+id/progrssbar"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</RelativeLayout>

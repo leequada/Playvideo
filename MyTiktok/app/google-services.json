@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "377425941654",
+    "project_id": "odevidapp",
+    "storage_bucket": "odevidapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377425941654:android:d14905e165b58a62619eb7",
+        "android_client_info": {
+          "package_name": "com.example.mytiktok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377425941654-ng8neosec49i4r2cqed6s69eq0l48qjc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCelGt37QZ6XuVYeHu3-d6pDFtg-AeK_Bs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377425941654-ng8neosec49i4r2cqed6s69eq0l48qjc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
